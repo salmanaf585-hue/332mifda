@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papan Pengumuman Digital Sekolah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📢 Papan Pengumuman Digital Sekolah</h1>
+    <p>Tempat menampilkan pengumuman penting sekolah dan kelas</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Tambah Pengumuman</h2>
+      <form id="announcement-form">
+        <input type="text" id="judul" placeholder="Judul Pengumuman" required>
+        <textarea id="isi" placeholder="Isi Pengumuman" required></textarea>
+        <input type="date" id="tanggal" required>
+        <button type="submit">Tambah</button>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <h2>Daftar Pengumuman</h2>
+      <ul id="announcement-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Papan Pengumuman Digital Sekolah | Hemat Kertas, Cinta Lingkungan 🌿</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
